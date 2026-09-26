@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func main() {
 	// for loop is only used in go { no while loop is here}
 
@@ -20,5 +18,5 @@ func main() {
 
 	/*for i := range 13 {
 	fmt.Println(i) */
-	fmt.Println("happy budday b pharma sudentt")
+
 }
