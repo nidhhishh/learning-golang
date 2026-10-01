@@ -1,29 +1,12 @@
-// package main
-
-// import "fmt"
-
-// func main() {
-// 	// m := []int{1, 2, 3, 4, 5, 7}
-
-// 	// for s, a := range m {
-// 	// 	fmt.Println(a, s)
-// 	// }
-
-// 	m := map[int]string{2: "w", 3: "e"}
-
-// 	for _, g := range m {
-// 		fmt.Println(g)
-// 	}
-
-// }
-
 package main
+
+// Student Marks Analyzer
 
 import "fmt"
 
-func calculateAvarage(a, b, c, d int) int {
+func calculateAvarage(a, b, c, d float64) float64 {
 	total := a + b + c + d
-	avg := (total) / 4
+	avg := (total) / 4.00
 	return avg
 
 }
