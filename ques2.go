@@ -1,26 +1,6 @@
-// package main
-
-//  type Student struct {
-// 		Name string
-// 		Id int
-// 		Marks int
-// 		feesPaid bool
-// 	 }
-
-// func main() {
-
-// 	 studentsName := []string {"Kaka", "kuku", "Kiki", "Keke"}
-//    stu1 := Student {
-// 	Name: "Kaka" ,
-// 	Id: 202601,
-// 	Marks: 348,
-// 	feesPaid: true,
-
-//    }
-
-// }
-
 package main
+
+//Student Management System
 
 import "fmt"
 
@@ -81,4 +61,5 @@ func main() {
 	fmt.Println("Fees Summary:")
 	fmt.Println("Paid:", fees["Paid"])
 	fmt.Println("Not Paid:", fees["Not Paid"])
+
 }

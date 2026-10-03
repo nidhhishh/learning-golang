@@ -14,8 +14,6 @@ func multiply(nums ...int) int {
 
 func main() {
 
-	result := multiply(2, 2, 2, 2)
-
-	fmt.Println("your ans is", result)
+	fmt.Println()
 
 }

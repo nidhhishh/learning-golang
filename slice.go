@@ -17,7 +17,7 @@ func main() {
 	// fmt.Println(len(nums))
 	// fmt.Println(cap(nums))
 	num := []string{"go", "golang", "c", "c++"}
-	num1 := []string{"go", "golang", "cs", "c++"}
+	num1 := []string{"go", "golang", "c", "c++"}
 	fmt.Println(slices.Equal(num, num1))
 
 }
