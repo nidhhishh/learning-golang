@@ -2,6 +2,12 @@ package main
 
 import "fmt"
 
+// import "fmt"
+
+// func main() {
+// 	fmt.Println("hellow guys ")
+// }
+
 func main() {
-	fmt.Println("hellow guys ")
+	fmt.Printf("i love monsterrr!!!!!!!!!")
 }
